@@ -1,0 +1,11 @@
+# Ignore environment files
+.env
+.env.local
+
+# Ignore workflow files if they contain secrets
+.github/workflows/deploy.yml
+
+# Ignore other sensitive files
+*.key
+*.pem
+*.crt
